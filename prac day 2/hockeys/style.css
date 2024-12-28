@@ -1,0 +1,169 @@
+/* Circular Progress Bar Styles */
+.circular-progress {
+    padding: 5px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress .circle {
+
+    width: 90%;
+    height: 90%;
+    background: #fff;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress .circle span {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.circular-progress[data-progress="87"] {
+    background: conic-gradient(red calc(var(--progress) * 1%), #e6e6e6 0%);
+    --progress: 87;
+}
+
+.circular-progress[data-progress="95"] {
+    background: conic-gradient(green calc(var(--progress) * 1%), #e6e6e6 0%);
+    --progress: 95;
+}
+
+.circular-progress[data-progress="90"] {
+    background: conic-gradient(orange calc(var(--progress) * 1%), #e6e6e6 0%);
+    --progress: 90;
+}
+
+.circular-progress[data-progress="80"] {
+    background: conic-gradient(blue calc(var(--progress) * 1%), #e6e6e6 0%);
+    --progress: 80;
+}
+
+
+/* Footer Section */
+
+.footer-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Footer Column */
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-logo-circle {
+    background-color: orange;
+    color: black;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 8px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.job-notifications {
+    color: orange;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Email Input */
+
+.email-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer Links */
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.footer-links li:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/* Address Section */
+
+.address-label {
+    font-weight: bold;
+    color: orange;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+
+    .email-input {
+        text-align: center;
+    }
+}

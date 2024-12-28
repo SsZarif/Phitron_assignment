@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hockey's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <header>
+        <nav class="navbar container navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: red;">H<span style="color: red;">o</span>ckey's</a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex ms-auto">
+                    <a class="btn btn-primary" href="#">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/cup1.jpg" class="d-block w-25 m-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="color: white;">
+                        <h5>Meet all the hero's from the field</h5>
+                        <p>We are the 2019-2020 Hockey East Regular Season Champions and the 2020 Hockey East Tournament
+                            Champions. We have also appeared in five NCAA Championship Frozen Fours and have won two
+                            NCAA National Championships (1991 and 1992).</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="container text-center">
+            <h1 class="my-5">Description of our Hockey Team</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quibusdam, maiores
+                        velit quo eum ipsum maxime molestias minus libero temporibus nesciunt similique nihil minima
+                        amet enim perferendis. Temporibus quos similique earum minima, sit sapiente excepturi blanditiis
+                        nam! Ipsam vero animi, ea accusantium facere adipisci qui illo est fugiat quaerat deleniti.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container text-center mt-5 pt-5">
+            <div class="row justify-content-center">
+                <!-- Circular Progress 1 -->
+                <div class="col-md-3 mb-4">
+                    <div class="circular-progress" data-progress="87">
+                        <div class="circle">
+                            <span>87%</span>
+                        </div>
+                    </div>
+                    <p class="mt-3 ml-n5">Player Facility</p>
+                </div>
+
+                <!-- Circular Progress 2 -->
+                <div class="col-md-3 mb-4">
+                    <div class="circular-progress" data-progress="95">
+                        <div class="circle">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <p class="mt-3 ml-n5">Experienced Coach</p>
+                </div>
+
+                <!-- Circular Progress 3 -->
+                <div class="col-md-3 mb-4">
+                    <div class="circular-progress" data-progress="90">
+                        <div class="circle">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <p class="mt-3 ml-n5">Senior Player</p>
+                </div>
+
+                <!-- Circular Progress 4 -->
+                <div class="col-md-3 mb-4">
+                    <div class="circular-progress" data-progress="80">
+                        <div class="circle">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <p class="mt-3 ml-n5">Training Ground</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" class="container my-5">
+            <h2 class="text-center mb-4">Our Programs</h2>
+            <div class="row gy-4">
+                <!-- Program 1: Junior Program -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/hoc1.jpg" class="card-img-top" alt="Junior Program">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Program</h5>
+                            <p class="card-text">
+                                Designed for young learners to explore the basics of sports and team collaboration.
+                                Perfect for ages 6-10.
+                            </p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program 2: Teenager Program -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/hoc2.jpg" class="card-img-top" alt="Teenager Program">
+                        <div class="card-body">
+                            <h5 class="card-title">Teenager Program</h5>
+                            <p class="card-text">
+                                Focused on skill-building, strategy, and physical fitness. Ideal for ages 11-17 aiming
+                                to develop their game.
+                            </p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program 3: Professional Program -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/hoc3.jpg" class="card-img-top" alt="Professional Program">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Program</h5>
+                            <p class="card-text">
+                                Tailored for advanced players looking to enhance their skills, techniques, and compete
+                                at higher levels.
+                            </p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="container my-5">
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/5.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Stick">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Stick</h5>
+                            <p class="card-text">High-quality hockey stick designed for intermediate players</p>
+                            <p class="card-text">Price: $50</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/6.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Helmet">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Helmet</h5>
+                            <p class="card-text">Protective helmet for players of all levels</p>
+                            <p class="card-text">Price: $70</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/7.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Gloves">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Gloves</h5>
+                            <p class="card-text">Premium gloves for improved grip and protection</p>
+                            <p class="card-text">Price: $80</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/8.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Pads">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Pads</h5>
+                            <p class="card-text">Lightweight, protective pads for goalies</p>
+                            <p class="card-text">Price: $120</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/9.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Shoes</h5>
+                            <p class="card-text">Comfortable, grippy shoes for better performance</p>
+                            <p class="card-text">Price: $90</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/10.png" class="card-img-top img-fluid" style="width: 150px; height: 150px;"
+                            alt="Hockey Ball">
+                        <div class="card-body">
+                            <h5 class="card-title">Hockey Ball</h5>
+                            <p class="card-text">High-quality ball for better game performance</p>
+                            <p class="card-text">Price: $40</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="get-in-touch-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-center">Get In Touch</h2>
+                        <div class="get-in-touch-form">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nameInput" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="nameInput" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="emailInput" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control" id="emailInput" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subjectInput" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subjectInput" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phoneInput" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phoneInput" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="messageInput" class="form-label">Message</label>
+                                    <textarea class="form-control" id="messageInput" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-2">
+                        <div class="get-in-touch-container ms-auto">
+                            <div class="row mb-4">
+                                <div class="col bg-light p-3 rounded">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/phone.png" width="25" height="25" alt="phone" class="me-2">
+                                        <p class="m-0">+880 1234567890</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col bg-light p-3 rounded">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/email.png" width="25" height="25" alt="email" class="me-2">
+                                        <p class="m-0">info@example.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col bg-light p-3 rounded">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/location.png" width="25" height="25" alt="location"
+                                            class="me-2">
+                                        <p class="m-0">Dhaka, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-section py-5 mt-5">
+        <div class="footer-container">
+            <!-- Get In Touch Section -->
+            <div class="footer-column ms-3 ps-5">
+                <div class="footer-logo">
+                    <h1>Get In Touch</h1>
+                </div>
+                <p class="ms-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sit, vel natus labore suscipit
+                    eos voluptatem rerum a culpa. Itaque eius laboriosam ut autem ipsam eum error porro facere quam?
+                </p>
+                <div class="d-flex align-items-center ms-3">
+                    <span class="me-2">&#9993;</span>
+                    <p>info@hockey.com</p>
+                </div>
+                <div class="d-flex align-items-center ms-3">
+                    <span class="me-2">&#9742;</span>
+                    <p>+1 234 567 8900</p>
+                </div>
+            </div>
+
+            <!-- Company Section -->
+            <div class="footer-column">
+                <h3 class="text-white">Company</h3>
+                <ul class="footer-links">
+                    <li>About Us</li>
+                    <li>Leadership</li>
+                    <li>Careers</li>
+                    <li>News & Articles</li>
+                    <li>Legal Notice</li>
+                </ul>
+            </div>
+
+            <!-- Suport Section -->
+            <div class="footer-column">
+                <h3 class="text-white">Suport</h3>
+                <ul class="footer-links">
+                    <li>Help Center</li>
+                    <li>FAQ</li>
+                    <li>Ticket Support</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <!-- Services Section -->
+            <div class="footer-column">
+                <h3 class="text-white">Services</h3>
+                <ul class="footer-links">
+                    <li>Academy</li>
+                    <li>Group Lesson</li>
+                    <li>Private Lesson</li>
+                    <li>Hockey for kids</li>
+                    <li>Hockey for adults</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
